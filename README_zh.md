@@ -27,6 +27,24 @@
 
 ---
 
+## 环境准备
+
+运行本项目前，请确认以下条件已满足：
+
+**1. Python 版本**
+需要 Python 3.10 或以上版本。在终端输入以下命令检查：
+```bash
+python --version
+```
+
+**2. Gemini API Key**
+本项目使用 Google Gemini API 生成中文摘要。请前往 [Google AI Studio](https://aistudio.google.com/apikey) 免费申请 API Key，申请后妥善保存，运行时需要用到。
+
+**3. 网络环境**
+脚本需要访问境外智库网站（如 studies.aljazeera.net、rasanah-iiis.org），请确保网络可以正常访问这些域名。
+
+---
+
 ## 快速上手
 
 ### 1. 安装依赖
